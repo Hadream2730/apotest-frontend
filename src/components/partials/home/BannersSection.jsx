@@ -5,16 +5,18 @@ import Image from "next/image";
 const BannersSection = () => {
   return (
     <section className="my-5">
-      <div className="grid grid-flex-row grid-cols-12 lg:grid-cols-10">
-        <div className="col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-2">
-          <div className="group banner relative bg-[#ff9987] overflow-hidden">
+      <div className="grid grid-flex-row grid-cols-12 lg:grid-cols-12 xl:grid-cols-10">
+        <div className="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-4  xl:col-span-2">
+          <div className="group banner relative bg-[#ff9987] overflow-hidden h-[450px]">
+            <div class="hand-image absolute bottom-0 left-[50%] translate-x-[-50%] ">
             <Image
-              className="w-full group-hover:opacity-0 transition-all"
-              src={"/images/banners/1.png"}
-              width={285}
-              height={450}
+              className="group-hover:opacity-0 transition-all"
+              src={"/images/hands/hand1.png"}
+              width={257}
+              height={340}
               alt="Banner"
             />
+            </div>
 
             <h4 className="absolute top-12 left-0 right-0 text-center text-xl uppercase">
               Klamydia
@@ -46,15 +48,17 @@ const BannersSection = () => {
           </div>
         </div>
 
-        <div className="col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-2">
-          <div className="group banner relative bg-[#f1b1b5] overflow-hidden">
+        <div className="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-4  xl:col-span-2">
+          <div className="group banner relative bg-[#f1b1b5] overflow-hidden h-[450px]">
+            <div class="hand-image absolute bottom-0 left-[50%] translate-x-[-50%] ">
             <Image
-              className="w-full group-hover:opacity-0 transition-all"
-              src={"/images/banners/2.png"}
-              width={285}
-              height={450}
+              className="group-hover:opacity-0 transition-all"
+              src={"/images/hands/hand2.png"}
+              width={182}
+              height={290}
               alt="Banner"
             />
+            </div>
 
             <h4 className="absolute top-12 left-0 right-0 text-center text-xl uppercase">
               FORNY P-PILLER
@@ -87,15 +91,17 @@ const BannersSection = () => {
           </div>
         </div>
 
-        <div className="col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-2">
-          <div className="group banner relative bg-[#85ccd6] overflow-hidden">
+        <div className="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-4  xl:col-span-2">
+          <div className="group banner relative bg-[#85ccd6] overflow-hidden h-[450px]">
+            <div class="hand-image absolute bottom-0 left-[50%] translate-x-[-50%] ">
             <Image
-              className="w-full group-hover:opacity-0 transition-all"
-              src={"/images/banners/3.png"}
-              width={285}
-              height={450}
+              className="group-hover:opacity-0 transition-all"
+              src={"/images/hands/hand3.png"}
+              width={167}
+              height={303}
               alt="Banner"
             />
+            </div>
 
             <h4 className="absolute top-12 left-0 right-0 text-center text-xl uppercase">
               Klamydia
@@ -127,15 +133,17 @@ const BannersSection = () => {
           </div>
         </div>
 
-        <div className="col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-2">
-          <div className="group banner relative bg-[#f9d395] overflow-hidden">
+        <div className="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-4  xl:col-span-2">
+          <div className="group banner relative bg-[#f9d395] overflow-hidden h-[450px]">
+            <div class="hand-image absolute bottom-0 left-[50%] translate-x-[-50%] ">
             <Image
-              className="w-full group-hover:opacity-0 transition-all"
-              src={"/images/banners/4.png"}
-              width={285}
-              height={450}
+              className="group-hover:opacity-0 transition-all"
+              src={"/images/hands/hand4.png"}
+              width={149}
+              height={288}
               alt="Banner"
             />
+            </div>
 
             <h4 className="absolute top-12 left-0 right-0 text-center text-xl uppercase">
               Klamydia
@@ -167,15 +175,17 @@ const BannersSection = () => {
           </div>
         </div>
 
-        <div className="col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-2">
-          <div className="group banner relative bg-[#cccccc] overflow-hidden">
+        <div className="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-4  xl:col-span-2">
+          <div className="group banner relative bg-[#cccccc] overflow-hidden h-[450px]">
+            <div class="hand-image absolute bottom-0 left-[50%] translate-x-[-50%] ">
             <Image
-              className="w-full group-hover:opacity-0 transition-all"
-              src={"/images/banners/5.png"}
-              width={285}
-              height={450}
+              className="group-hover:opacity-0 transition-all"
+              src={"/images/hands/hand5.png"}
+              width={135}
+              height={287}
               alt="Banner"
             />
+            </div>
 
             <h4 className="absolute top-12 left-0 right-0 text-center text-xl uppercase">
               Klamydia
